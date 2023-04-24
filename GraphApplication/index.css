@@ -1,0 +1,52 @@
+.container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+body { height: 100%;
+    width: 100%;}
+
+#node-popUp {
+    display: block;
+    visibility: show;
+    top: 350px;
+    left: 170px;
+    z-index: 299;
+    width: 250px;
+    height: 100px;
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #5394ed;
+    padding: 10px;
+    text-align: center;
+}
+
+#edge-popUp {
+    display: block;
+    visibility: show;
+    top: 350px;
+    left: 170px;
+    z-index: 299;
+    width: 250px;
+    height: 90px;
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #5394ed;
+    padding: 10px;
+    text-align: center;
+}
+
+#mynetwork {
+    width: 100vh;
+    height: 100vh;
+    border: 1px solid lightgray;
+}
+
+.popup-container{
+    align-self: center;
+}
